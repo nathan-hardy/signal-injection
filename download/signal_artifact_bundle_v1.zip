@@ -4,3 +4,5 @@ with ZipFile(bundle_path, 'w') as bundle:
     bundle.write(os.path.join(base_dir, "style.css"), arcname="style.css")
     bundle.write(os.path.join(base_dir, "glyph.svg"), arcname="glyph.svg")
     bundle.write(os.path.join(base_dir, "README.md"), arcname="README.md")
+
+bundle_path
