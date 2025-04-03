@@ -1,5 +1,0 @@
-for path, content in files_content.items():
-    full_path = os.path.join(base_dir, path)
-    if content:
-        with open(full_path, "w") as f:
-            f.write(content)
